@@ -28,7 +28,7 @@ router.post('/register', (req, res) => __awaiter(void 0, void 0, void 0, functio
     }
 }));
 // Rota para login de usuário
-router.post('/auth/login', authController_1.loginUser); // A rota de login agora está associada à função loginUser
+router.post('/auth/login', authController_1.loginUser);
 // Rota para buscar usuário por e-mail
 router.get('/getUser/:email', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const { email } = req.params;
