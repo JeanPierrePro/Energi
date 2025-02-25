@@ -19,7 +19,7 @@ router.post('/register', async (req: Request, res: Response): Promise<Response> 
 });
 
 // Rota para login de usuário
-router.post('/auth/login', loginUser); // A rota de login agora está associada à função loginUser
+router.post('/auth/login', loginUser);
 
 // Rota para buscar usuário por e-mail
 router.get('/getUser/:email', async (req: Request, res: Response): Promise<Response> => {
