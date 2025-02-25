@@ -30,8 +30,5 @@ app.post("/api/register", (req, res) => {
     }
     res.json({ message: "Registro bem-sucedido!", user: { name, email } });
 });
-// Porta do servidor
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-    console.log(`🚀 Servidor rodando na porta ${PORT} (${process.env.NODE_ENV || "desenvolvimento"})`);
-});
+// Exportação para Vercel
+exports.default = app;
