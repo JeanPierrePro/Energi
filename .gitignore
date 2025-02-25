@@ -1,0 +1,5 @@
+*.json
+*.env
+vercel.json
+energi-97c18-firebase-adminsdk-fbsvc-60d43c77d2.json
+.vercel
